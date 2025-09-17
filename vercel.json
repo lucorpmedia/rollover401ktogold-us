@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "pages/api/**/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "gitty-subdomains-9rwdvkrw0-lucorpmediacoms-projects.vercel.app/api/$1"
+    }
+  ]
+}
